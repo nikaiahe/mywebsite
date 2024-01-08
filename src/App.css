@@ -1,42 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&display=swap');
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+body{
+  background-color: rgb(224, 175, 203);
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1{
+  background-color: rgb(198, 123, 166);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+@font-face {
+  font-family: Raleway;
+  src: URL(../public/Raleway-Regular.ttf);
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
+  font-family: EBGaramond;
+  src: URL(../public/EBGaramond-Regular.ttf);
 
-.card {
-  padding: 2em;
-}
+  font-family: Pacifico;
+  src: URL(../public/Pacifico-Regular.ttf);
 
-.read-the-docs {
-  color: #888;
+}
+#Name{
+  text-shadow: 1px 1px 2px black;
+  font-family: 'EB Garamond', serif;
+  font-size: 50px;
+  color: rgb(231, 31, 145);
+}
+#Student{
+  font-family: Raleway;
+  font-size: 14px;
+  color: rgb(165, 42, 118);
+}
+#Studying{
+  font-family: Raleway;
+  font-size: 12px;
+  color: rgb(231, 31, 181);
 }
