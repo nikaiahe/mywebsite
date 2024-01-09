@@ -2,7 +2,22 @@
   max-width: 1280px;
 }
 body{
-  background-color: rgb(240, 229, 235);
+  background-color: rgb(215, 208, 208);
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url(/Raleway-Regular.ttf);
+
+}
+#hello{
+  font-family: Raleway;
+  font-size: 60px;
+  color: green;
+}
+
+#content{
+  width: 100%;
 }
 
 /*@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&display=swap');
