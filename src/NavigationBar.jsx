@@ -11,7 +11,7 @@ function NavigationBar(){
                     <li><a href="#/Home">Home</a> </li>
                     <li><a href="#/More">More</a></li>
                     <li><a href="#/Stuff">Stuff</a></li>
-                    <li><a href="#/Cool">Cool</a></li>
+                    <li><a href="#/About">About</a></li>
                 </ul>
             </div>
         </nav>

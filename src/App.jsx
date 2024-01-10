@@ -1,7 +1,7 @@
 import './App.css'
 import NavigationBar from './NavigationBar';
 import Home from './pages/Home';
-import Cool from './pages/Cool';
+import About from './pages/About';
 import More from './pages/More';
 import Stuff from './pages/Stuff';
 
@@ -23,7 +23,7 @@ function App() {
         <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Home" element={<Home />} />
-        <Route path="/Cool" element={<Cool />} />
+        <Route path="/About" element={<About />} />
         <Route path="/More" element={<More />} />
         <Route path="/Stuff" element={<Stuff />} />
         </Routes>

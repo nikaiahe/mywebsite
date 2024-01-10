@@ -2,10 +2,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 5px;
+    padding: 0px 0px;
     top: 0;
-    position: fixed;
-    background: linear-gradient(90deg, #42adff, #393839);
+    position: flex;
+    background: rgb(255, 92, 190);
+    height: 10%;
     width: 100%;
     z-index: 9999;
     animation: gradient_anim 23s ease infinite;
@@ -26,15 +27,15 @@ nav {
 }
 
 @font-face {
-    font-family: Raleway;
-    src: url(/Raleway-Regular.ttf);
+    font-family: YatraOne;
+    src: url(/YatraOne-Regular.ttf);
 
 }
 #name{
     margin-left: 30px;
-    font-family: Raleway;
+    font-family: YatraOne;
     font-size: 40px;
-    text-shadow: 2px 2px 10px #000;
+    color: rgb(252, 179, 216);
 }
 #navbar{
     display:flex;
@@ -53,21 +54,21 @@ nav {
     text-decoration:none;
     font-size: 1.8rem;
     font-weight: 600;
-    color: #fff;
-    font-family: Raleway;
+    color: #ffc5da;
+    font-family: YatraOne;
     transition: 0.3s ease-in-out;
-    text-shadow: 2px 2px 10px #000;
+    
 }
 
 #navbar li a:hover{
-    color: #42adff
+    color: #ff8ab9
 }
 
 #navbar li a:hover::after{
     content:"";
     width: 30%;
     height: 2px;
-    background: #42adff;
+    background: #ff72b6;
     position:absolute;
     bottom: -4px;
     left: 20px;
