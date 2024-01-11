@@ -4,13 +4,17 @@ nav {
     justify-content: space-between;
     padding: 0px 0px;
     top: 0;
-    position: flex;
-    background: rgb(255, 92, 190);
+    left: 0;
+    position: fixed;
+    background: rgb(38,116,90);
     height: 10%;
     width: 100%;
     z-index: 9999;
     animation: gradient_anim 23s ease infinite;
     background-size: 200%; /* Ensure the background covers the entire linear gradient */
+    border-bottom-style: solid;
+    border-bottom-width: 2%;
+    border-bottom-color:rgb(242,236,224);
 }
 
 
@@ -30,45 +34,56 @@ nav {
     font-family: YatraOne;
     src: url(/YatraOne-Regular.ttf);
 
+    font-family: Bagel;
+    src: url(/BagelFatOne-Regular.ttf);
+
+    font-family: Paytone;
+    src: url(/PaytoneOne-Regular.ttf);
+
+    font-family: Righteous;
+    src: url(/Righteous-Regular.ttf);
+
 }
 #name{
     margin-left: 30px;
-    font-family: YatraOne;
+    font-family: Righteous;
     font-size: 40px;
-    color: rgb(252, 179, 216);
+    color: rgb(242,236,224);
 }
 #navbar{
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-right: 30px;
+    /* margin-right: 30px; */
 }
 
 #navbar li{
     list-style: none;
     padding: 0 15px;
     position: relative;
+    right: 10%;
 }
 
 #navbar li a{
     text-decoration:none;
     font-size: 1.8rem;
-    font-weight: 600;
-    color: #ffc5da;
-    font-family: YatraOne;
+    font-weight: 100;
+    color: rgb(242,236,224);
+    font-family: Righteous;
     transition: 0.3s ease-in-out;
+    
     
 }
 
 #navbar li a:hover{
-    color: #ff8ab9
+    color: rgb(148, 188, 167);
 }
 
 #navbar li a:hover::after{
     content:"";
     width: 30%;
     height: 2px;
-    background: #ff72b6;
+    background: rgb(148, 188, 167);
     position:absolute;
     bottom: -4px;
     left: 20px;

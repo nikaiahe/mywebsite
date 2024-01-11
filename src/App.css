@@ -2,22 +2,32 @@
   max-width: 1280px;
 }
 body{
-  background-color: rgb(255, 113, 182);
+  background-color: rgb(242,236,224);
+  justify-content: center;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @font-face {
-  font-family: Raleway;
-  src: url(/Raleway-Regular.ttf);
+  font-family: YatraOne;
+  src: url(/YatraOne-Regular.ttf);
 
-}
-#hello{
-  font-family: Raleway;
-  font-size: 60px;
-  color: green;
+  font-family: Paytone;
+  src: url(/PaytoneOne-Regular.ttf);
+
+  font-family: Righteous;
+  src: url(/Righteous-Regular.ttf);
+
 }
 
 #content{
+  font-family: Righteous;
   width: 100%;
+  color: rgb(38,116,90);
+
 }
 
 /*@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&display=swap');
