@@ -1,15 +1,15 @@
 #root {
   max-width: 1280px;
 }
+/*
 body{
   background-color: rgb(242,236,224);
   justify-content: center;
   margin: 0;
   height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-}
+}*/
 
 @font-face {
   font-family: YatraOne;
@@ -23,12 +23,14 @@ body{
 
 }
 
+/*
 #content{
   font-family: Righteous;
   width: 100%;
   color: rgb(38,116,90);
 
 }
+*/
 
 /*@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&display=swap');
 #root {

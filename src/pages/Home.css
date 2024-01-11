@@ -2,18 +2,30 @@
     max-width: 1280px;
     /* margin: 0 auto; */
     padding: 2px;
-    
+    justify-content: center;
+    align-items: center;
 }
 body {
-    background-color: rgb(255, 152, 183);
+    background-color: rgb(38,116,90);
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 @font-face {
-    font-family: Aladin;
-    src: url(/Aladin-Regular.ttf);
+    font-family: Righteous;
+    src: url(/Righteous-Regular.ttf);
 }
   
-#content{
-    font: Aladin;
-    color: rgb(255, 50, 111);
+#welcome{
+    font-family: Righteous;
+    color: rgb(242,236,224);
+    
+}
+#info{
+    font-family: Righteous;
+    color: rgb(242,236,224);
+    
 }

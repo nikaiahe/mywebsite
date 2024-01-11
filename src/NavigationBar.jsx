@@ -9,9 +9,9 @@ function NavigationBar(){
             <div>
                 <ul id ="navbar">
                     <li><a href="#/Home">Home</a> </li>
-                    <li><a href="#/More">More</a></li>
-                    <li><a href="#/Stuff">Stuff</a></li>
                     <li><a href="#/About">About</a></li>
+                    <li><a href="#/Projects">Projects</a></li>
+                    <li><a href="#/Stuff">Stuff</a></li>
                 </ul>
             </div>
         </nav>

@@ -1,6 +1,6 @@
-import './More.css'
+import './Projects.css'
 
-export default function More(){
+export default function Projects(){
     return (
         <h1 id="content">
             More!

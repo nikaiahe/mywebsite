@@ -6,12 +6,11 @@ body {
 }
 
 @font-face {
-    font-family: YatraOne;
-    src: url(/YatraOne-Regular.ttf);
+    font-family: Righteous;
+    src: url(/Righteous-Regular.ttf);
 }
   
 #content{
-    font: YatraOne;
+    font: Righteous;
     color: rgb(242,236,224);
-    
 }
