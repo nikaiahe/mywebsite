@@ -19,11 +19,23 @@ body {
     src: url(/Righteous-Regular.ttf);
 }
 
-#cont{
-    padding-top:20%;
+img{
+    height:20%;
+    width: 10%;
+    border-radius: 10%;
 }
- 
-#welcome{
+
+#main{
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#intro{
     font-family: Righteous;
     color: rgb(242,236,224);
     font-size: 300%;
@@ -35,7 +47,7 @@ body {
     
 }
 
-#paragraph{
+#para{
     font-family: Righteous;
     color: rgb(242,236,224);
     font-size: 200%;

@@ -3,9 +3,9 @@ import './Home.css'
 // Define your functional component for the page
 const Home = () => {
   return (
-    <div id="content">
+    <div id="cont">
         <h1 id="welcome">welcome to my website!</h1>
-        <p id="info"></p>
+            <p id="paragraph">this is the paragraph</p>
     </div>
   );
 };
