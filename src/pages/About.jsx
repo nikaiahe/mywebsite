@@ -56,7 +56,7 @@ export default function About(){
                     A snapshot at where I spend my days
                 </h2>
                 <p id="paras4">
-                    i am a student
+                    let's once again pretend i wrote something really cool here
                 </p>
                 </div>
 
@@ -67,10 +67,10 @@ export default function About(){
                     When
                 </h1>
                 <h2 id = "subtitles5">
-                    idk what this means
+                    ok yeah i havent really figured this out either
                 </h2>
                 <p id="paras5">
-                    ni'll figure it out later
+                    trust i'll do it later
                 </p>
                 </div>
 

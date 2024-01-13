@@ -200,7 +200,7 @@ root{
     font-weight: bold;
     font-size: 2.0em;
     align-self: flex-start;
-    padding-left: 5%;
+    padding-left: 2.5%;
     padding-right: 2.5%;
     padding-top: 3%;
 }
@@ -210,7 +210,7 @@ root{
     font-size: 1.5em;
     align-self: flex-start;
     align-items: flex-start;
-    padding-left: 5%;
+    padding-left: 2.5%;
     
     /* top:0;
     left:0; */
@@ -223,7 +223,7 @@ root{
     font-size: 1.2em;
     align-self: flex-start;
     align-items: flex-start;
-    padding-left: 5%;
+    padding-left: 2.5%;
     
     /* top:0;
     left:0; */
