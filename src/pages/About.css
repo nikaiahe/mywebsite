@@ -29,22 +29,90 @@ root{
 
 #contents1{
     font-family: Righteous;
-    background:rgb(120, 213, 120);
+    background:rgb(38,116,90);
     padding: 5px;
     width: 100%;
     height: 150px;
     margin-top: 10px;
     line-height: 150px;
-    color: white;
+    color: rgb(242,236,224);
     font-weight: bold;
-    font-size: 3em;
+    font-size: 3.5em;
     text-align: center;
-
+    border-bottom-style: solid;
+    border-bottom-width: 2%;
+    border-bottom-color:rgb(242,236,224);
+    padding-bottom:5%;
     
 }
+.title-word {
+    animation: color-animation 4s linear 1;
+}
+  
+.title-word-1 {
+    --color-6: rgb(148, 188, 167);
+    --color-1: rgb(242,236,224);
+    --color-2: rgb(242,236,224);
+    --color-3: rgb(242,236,224);
+    --color-4: rgb(242,236,224);
+    --color-5: rgb(242,236,224);
+    
+}
+  
+.title-word-2 {
+    --color-6: rgb(148, 188, 167);
+    --color-1: rgb(148, 188, 167);
+    --color-2: rgb(242,236,224);
+    --color-3: rgb(242,236,224);
+    --color-4: rgb(242,236,224);
+    --color-5: rgb(242,236,224);
+}
+  
+  .title-word-3 {
+    --color-6: rgb(148, 188, 167);
+    --color-1: rgb(148, 188, 167);
+    --color-2: rgb(148, 188, 167);
+    --color-3: rgb(242,236,224);
+    --color-4: rgb(242,236,224);
+    --color-5: rgb(242,236,224);
+}
+  
+.title-word-4 {
+    --color-6: rgb(148, 188, 167);
+    --color-1: rgb(148, 188, 167);
+    --color-2: rgb(148, 188, 167);
+    --color-3: rgb(148, 188, 167);
+    --color-4: rgb(242,236,224);
+    --color-5: rgb(242,236,224);
+}
+.title-word-5 {
+    --color-6: rgb(148, 188, 167);
+    --color-1: rgb(148, 188, 167);
+    --color-2: rgb(148, 188, 167);
+    --color-3: rgb(148, 188, 167);
+    --color-4: rgb(148, 188, 167);
+    --color-5: rgb(242,236,224);
+}
+  
+@keyframes color-animation {
+    0%    {color: var(--color-6)}
+    15%    {color: var(--color-6)}
+    16%    {color: var(--color-1)}
+    31%   {color: var(--color-1)}
+    32%   {color: var(--color-2)}
+    46%   {color: var(--color-2)}
+    47%   {color: var(--color-3)}
+    61%   {color: var(--color-3)}
+    62%   {color: var(--color-4)}
+    77%   {color: var(--color-4)}
+    78%   {color: var(--color-5)}
+    100%  {color: var(--color-5)}
+}
+
+
 #contents2{
     font-family: Righteous;
-    background:rgb(58, 132, 58);
+    background:rgb(38,116,90);
     padding: 5px;
     width: 100%;
     height: 500px;
@@ -53,6 +121,9 @@ root{
     color: white;
     display: flex;
     justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-width: 2%;
+    border-bottom-color:rgb(242,236,224);
     
 }
 #titles2{
@@ -78,14 +149,18 @@ root{
     width:100%;
     
 }
-
+.headshot-container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 .headshotimg{
     height:80%;
     width:auto;
     float:right;
     padding-right: 3.5%;
     padding-top: 3.5%;
-
+    border-radius:40px;
 }
 
 #paras2{
@@ -107,7 +182,7 @@ root{
 
 #contents3{
     font-family: Righteous;
-    background:rgb(182, 237, 182);
+    background:rgb(38,116,90);
     padding: 5px;
     width: 100%;
     height: 500px;
@@ -116,6 +191,9 @@ root{
     color: white;
     display: flex;
     justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-width: 2%;
+    border-bottom-color:rgb(242,236,224);
 }
 #titles3{
     font-family: Righteous;
@@ -139,8 +217,6 @@ root{
     /* padding-bottom: 10%; */
     
 }
-
-
 #paras3{
     font-family: Righteous;
     font-weight: bold;
@@ -159,42 +235,164 @@ root{
 
 #contents4{
     font-family: Righteous;
-    background:rgb(58, 132, 58);
+    background:rgb(38,116,90);
     padding: 5px;
     width: 100%;
-    height: 300px;
+    height: 500px;
     margin-top: 10px;
-    line-height: 150px;
+    /* line-height: 150px; */
     color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-width: 2%;
+    border-bottom-color:rgb(242,236,224);
+}
+#titles4{
+    font-family: Righteous;
     font-weight: bold;
-    font-size: 1em;
-    text-align: center;
+    font-size: 2.0em;
+    align-self: flex-start;
+    padding-left: 5%;
+    padding-right: 2.5%;
+    padding-top: 3%;
+}
+#subtitles4{
+    font-family: Righteous;
+    font-weight: bold;
+    font-size: 1.5em;
+    align-self: flex-start;
+    align-items: flex-start;
+    padding-left: 5%;
+    
+    /* top:0;
+    left:0; */
+    /* padding-bottom: 10%; */
     
 }
+#paras4{
+    font-family: Righteous;
+    font-weight: bold;
+    font-size: 1.2em;
+    align-self: flex-start;
+    align-items: flex-start;
+    padding-left: 5%;
+    
+    /* top:0;
+    left:0; */
+    padding-bottom: 10%;
+    width:100%;
+    float:left;
+
+}
+
 #contents5{
     font-family: Righteous;
-    background:rgb(160, 186, 160);
+    background:rgb(38,116,90);
     padding: 5px;
     width: 100%;
-    height: 150px;
+    height: 500px;
     margin-top: 10px;
-    line-height: 150px;
+    /* line-height: 150px; */
     color: white;
-    font-weight: bold;
-    font-size: 1em;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-width: 2%;
+    border-bottom-color:rgb(242,236,224);
+    
 }
+#titles5{
+    font-family: Righteous;
+    font-weight: bold;
+    font-size: 2.0em;
+    align-self: flex-start;
+    padding-left: 7%;
+    padding-top: 5%;
+}
+#subtitles5{
+    font-family: Righteous;
+    font-weight: bold;
+    font-size: 1.5em;
+    align-self: flex-start;
+    align-items: flex-start;
+    padding-left: 7%;
+    
+    /* top:0;
+    left:0; */
+    padding-bottom: 10%;
+    width:100%;
+    
+}
+#paras5{
+    font-family: Righteous;
+    font-weight: bold;
+    font-size: 1.2em;
+    align-self: flex-start;
+    align-items: flex-start;
+    padding-left: 7%;
+    
+    /* top:0;
+    left:0; */
+    padding-bottom: 10%;
+    width:100%;
+    float:left;
+    
+}
+
 #contents6{
     font-family: Righteous;
-    background:rgb(88, 118, 88);
+    background:rgb(38,116,90);
     padding: 5px;
     width: 100%;
-    height: 150px;
+    height: 500px;
     margin-top: 10px;
-    line-height: 150px;
+    /* line-height: 150px; */
     color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-width: 2%;
+    border-bottom-color:rgb(242,236,224);
+    
+}
+#titles6{
+    font-family: Righteous;
     font-weight: bold;
-    font-size: 1em;
-    text-align: center;
+    font-size: 2.0em;
+    align-self: flex-start;
+    padding-left: 7%;
+    padding-top: 5%;
+}
+
+#subtitles6{
+    font-family: Righteous;
+    font-weight: bold;
+    font-size: 1.5em;
+    align-self: flex-start;
+    align-items: flex-start;
+    padding-left: 7%;
+    
+    /* top:0;
+    left:0; */
+    padding-bottom: 10%;
+    width:100%;
+    
+}
+
+#paras6{
+    font-family: Righteous;
+    font-weight: bold;
+    font-size: 1.2em;
+    align-self: flex-start;
+    align-items: flex-start;
+    padding-left: 7%;
+    
+    /* top:0;
+    left:0; */
+    padding-bottom: 10%;
+    width:100%;
+    float:left;
+    
 }
 

@@ -3,7 +3,7 @@ import NavigationBar from './NavigationBar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import Stuff from './pages/Stuff';
+import Contact from './pages/Contact';
 
 import { Routes, Route, HashRouter } from "react-router-dom";
 
@@ -25,7 +25,7 @@ function App() {
         <Route path="/Home" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Projects" element={<Projects />} />
-        <Route path="/Stuff" element={<Stuff />} />
+        <Route path="/Contact" element={<Contact />} />
         </Routes>
         {/* </NavigationBar> */}
       </div>

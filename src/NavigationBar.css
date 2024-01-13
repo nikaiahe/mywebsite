@@ -6,7 +6,7 @@ nav {
     top: 0;
     left: 0;
     position: fixed;
-    background: rgb(38,116,90);
+    background: rgb(45, 136, 106);
     height: 10%;
     width: 100%;
     z-index: 9999;
@@ -36,7 +36,8 @@ nav {
 
 }
 #name{
-    margin-left: 30px;
+    margin-left: 25px;
+    
     font-family: Righteous;
     font-size: 40px;
     color: rgb(242,236,224);

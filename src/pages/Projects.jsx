@@ -5,7 +5,13 @@ import runway from '../images/runway.jpg'
 export default function Projects(){
     return (
         <div class="flex-container">
-            <div id="content1">☆ what i've been working on! ☆</div>
+            <div id="content1">
+                <h1 id="title1">
+                    ☆ what i've been working on! ☆
+                </h1>
+                
+            </div>
+
             <div id="content2">
                 <div id="content2text">
                 <h1 id="title2">
@@ -39,8 +45,8 @@ export default function Projects(){
                 <img src={runway} alt text="runway" className="runwayimg"></img>
 
             </div>
-            <div id="content4">Content 4</div>
-            <div id="content5">Content 5</div>
+            <div id="content4">guys i really dont feel like filling this in</div>
+            <div id="content5">or this</div>
         </div>
         
 
