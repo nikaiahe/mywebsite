@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div id="cont">
         <h1 id="welcome">welcome to my website!</h1>
-            <p id="paragraph">this is the paragraph</p>
+            <p id="paragraph">check out the different pages</p>
     </div>
   );
 };
