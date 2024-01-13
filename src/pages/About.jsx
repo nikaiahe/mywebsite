@@ -1,19 +1,15 @@
 import './About.css'
-import headshot from '../images/headshot.jpg';
+
+
 export default function About(){
     return (
-    <>
-    <div id="headshot"></div>
-    
-    
-
-    <div id="main">
-        <h1 id="intro">hello</h1>
-        <p id="para">this is about me</p>
-        <img src={headshot} alt text="headshot" />
-    </div> 
-    </>
-   
+        <div class="container">
+            <div id="content1">About Page!</div>
+            <div id="content2">Content 2</div>
+            <div id="content3">Content 3</div>
+            <div id="content4">Content 4</div>
+            <div id="content5">Content 5</div>
+        </div>
         
 
 
